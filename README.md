@@ -5,8 +5,8 @@
 
 <b>To create the open vulnerable environment, the first step is to deploy 2 virtual machines and configure the NSGs to allow inbound connections from any source to any port:</b>
 - Log into your Azure account and select Virtual Machines.
-- Click on (+) to create a new virtual machine (One running Linux and another running Windows)
-- Ensure both VMs are on the same Resource Group, Region, and VNet(i.e 10.1.0.0/16)
+- Click on (+) to create a new virtual machine running Linux and another running Windows
+- Ensure both VMs are on the same Resource Group, Region, and VNet
 - Create each VM with a strong username and password
 - After creating the Windows VM, RDP into the machine and turn off all windows firewall settings via **wf.msc**
 
